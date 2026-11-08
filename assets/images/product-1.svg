@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c2230;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#141824;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad)" />
+  <circle cx="400" cy="500" r="200" fill="none" stroke="#e2e8f0" stroke-width="1" opacity="0.15" />
+  <text x="50%" y="48%" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="28" font-weight="500" fill="#e2e8f0" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">LUMEN CHAIR</text>
+  <text x="50%" y="54%" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="14" font-weight="300" fill="#e2e8f0" text-anchor="middle" dominant-baseline="middle" opacity="0.6" letter-spacing="1">PREMIUM COLLECTION</text>
+</svg>
