@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Modern Architecture & Design</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">
+                <span class="logo-mark">A</span>
+                <span class="logo-text">AURA</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
+                    <li class="nav-item"><a href="#information" class="nav-link">Information</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+                <i data-lucide="menu" class="icon-menu"></i>
+                <i data-lucide="x" class="icon-close"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- 1. Hero / Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg">
+                <img src="assets/images/hero-image.svg" alt="Aura Architecture Banner" class="hero-img">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content container">
+                <div class="hero-badge reveal-item">EST. 2026 ARCHITECTURAL COLLECTION</div>
+                <h1 class="hero-title reveal-item">Welcome to <span class="accent-text">AURA</span></h1>
+                <p class="hero-description reveal-item">
+                    Crafting minimalist spaces and refined functional objects that transcend trends. We combine architectural precision with timeless aesthetics to elevate everyday living.
+                </p>
+                <div class="hero-cta reveal-item">
+                    <a href="#product" class="btn btn-primary">
+                        <span>Explore Our Products</span>
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Product Showcase Section -->
+        <section id="product" class="product-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Curated Collection</span>
+                    <h2 class="section-title">Our Products</h2>
+                    <p class="section-desc">Discover our collection of quality products crafted with architectural rigor and premium materials.</p>
+                </div>
+
+                <div class="product-grid" id="product-grid">
+                    <!-- Dynamic Product Cards Injected via Script -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 3. Information Section (Combined Footer) -->
+    <footer id="information" class="info-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <span class="logo-mark">A</span>
+                        <span class="logo-text">AURA</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Architectural aesthetics for contemporary living spaces. Designed with intention and built for longevity.
+                    </p>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="footer-col contact-col">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:contact@auradesign.com">contact@auradesign.com</a>
+                        </li>
+                        <li>
+                            <i data-lucide="phone"></i>
+                            <a href="tel:+18005550199">+1 (800) 555-0199</a>
+                        </li>
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>742 Evergreen Studio, Suite 100, New York, NY</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Links -->
+                <div class="footer-col social-col">
+                    <h3 class="footer-heading">Connect</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                            <i data-lucide="instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                            <i data-lucide="facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+                            <i data-lucide="youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="divider"></div>
+                <div class="copyright-wrap">
+                    <p class="copyright-text">
+                        &copy; <span id="copyright-year"></span> AURA Design Co. All rights reserved.
+                    </p>
+                    <p class="footer-credit">Designed with minimalism & clarity.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
